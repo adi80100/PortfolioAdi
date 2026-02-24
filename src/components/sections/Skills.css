@@ -66,6 +66,14 @@
   justify-content: center;
 }
 
+.skill-icon {
+  font-size: 30px;   /* Increase here */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
 .skill-name {
   font-size: 0.9rem;
   color: rgba(255, 255, 255, 0.8);

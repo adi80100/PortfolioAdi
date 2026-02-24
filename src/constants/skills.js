@@ -1,7 +1,7 @@
 export const skills = {
   programmingLanguages: [
     { name: "Java", icon: "java" },
-    { name: "C++", icon: "java" },
+    { name: "C++", icon: "cpp" },
     { name: "JavaScript", icon: "js" },
     { name: "SQL", icon: "sql" }
   ],
@@ -33,15 +33,18 @@ export const certifications = [
     title: "Oracle Cloud Infrastructure 2025 Certified Foundations Associate ",
     issuer: "Oracle",
     date: "October 2025 - October 2027",
-    logo: "oracle"
+    logo: "oracle",
+    link:"https://drive.google.com/file/d/1mOTcDlbcaiwRSTInwv8Vm7q5nhFDEa4d/view?usp=drive_link"
   },
-  // {
-  //   id: 2,
-  //   title: "AWS Certified Cloud Practitioner",
-  //   issuer: "Amazon Web Services",
-  //   date: "May 2023 - September 2027",
-  //   logo: "aws"
-  // },
+  {
+    id: 2,
+    title: "Web-Mania",
+    issuer: "SCOE-CompDept.",
+    date: "Jan-2025",
+    logo: "web-mania",
+    link:"https://drive.google.com/file/d/1yeolU0kEjxrb6h-iItS5hmH5jR7Mtfd4/view?usp=drivesdk"
+
+  },
   // {
   //   id: 3,
   //   title: "GitHub Foundations",
