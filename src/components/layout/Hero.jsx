@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import "./Hero.css";
-import profileImg from "../../assets/your-image.jpeg";
+import profileImg from "../../assets/img3.png";
 
 const Hero = () => {
   const canvasRef = useRef(null);
@@ -169,25 +169,7 @@ const Hero = () => {
           <div className="avatar-container">
             <div className="avatar-glow"></div>
             <div className="avatar-placeholder">
-              <svg width="200" height="200" viewBox="0 0 200 200">
-                <defs>
-                  <pattern
-                    id="imgPattern"
-                    patternUnits="userSpaceOnUse"
-                    width="200"
-                    height="200"
-                  >
-                    <image
-                      href={profileImg}
-                      width="200"
-                      height="200"
-                      preserveAspectRatio="xMidYMid slice"
-                    />
-                  </pattern>
-                </defs>
-
-                <circle cx="100" cy="100" r="100" fill="url(#imgPattern)" />
-              </svg>
+                <img src={profileImg} alt="Aditya Dhore" className="avatar-image" />
             </div>
           </div>
         </div>
