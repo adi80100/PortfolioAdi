@@ -79,7 +79,6 @@ export const projects = [
     "Embeddings",
     "Vector Search",
     "Generative AI",
-    "AI APIs",
     "Image Generation",
     "Document Processing",
     "Middleware"
