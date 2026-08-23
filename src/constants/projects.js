@@ -43,7 +43,56 @@ export const projects = [
       code: "https://github.com/adi80100/CAB",
       // demo: "#"
     }
+  },
+  
+  {
+  id: 4,
+
+  title: "Unified-AI",
+
+  period: "July 2026 - August 2026",
+
+  description:
+    "Developed a unified AI platform that brings multiple generative AI capabilities into a single application, including AI-powered text generation, image generation, document-based conversations, RAG-powered question answering, and intelligent content processing.",
+
+  features: [
+  "Integrated AI-powered text generation, conversational AI, and intelligent content creation for diverse user requirements.",
+
+  "Implemented AI image generation along with PDF and PPT generation, enabling users to create visual and document-based content using AI.",
+
+  "Built a Retrieval-Augmented Generation (RAG) system for document uploads, semantic search, and context-aware question answering.",
+
+  "Developed AI-powered voice assistance with speech-based user interactions for a more natural and accessible experience.",
+
+  "Implemented secure authentication, RESTful APIs, file processing, modular architecture, and scalable database management."
+],
+
+  technologies: [
+    "React.js",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "Mongoose",
+    "JWT",
+    "REST API",
+    "RAG",
+    "Embeddings",
+    "Vector Search",
+    "Generative AI",
+    "AI APIs",
+    "Image Generation",
+    "Document Processing",
+    "Middleware"
+  ],
+
+  links: {
+
+    code: "https://github.com/adi80100/AI-project",
+
+    // demo: "#"
+
   }
+}
 
   
 ];
