@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import "./Hero.css";
-import profileImg from "../../assets/img3.png";
-
+// import profileImg from "../../assets/img3.png";
+import profileImg from "../../assets/img3.png"
 const Hero = () => {
   const canvasRef = useRef(null);
 
