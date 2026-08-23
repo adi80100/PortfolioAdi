@@ -66,7 +66,7 @@ const Navbar = () => {
           ))}
           <li>
             <a 
-              href="https://drive.google.com/file/d/1kwAJeUjFNAucpBd7UkimJqgRLWWUqyba/view?usp=drive_link" 
+              href="https://drive.google.com/file/d/1_Sh3ocNsVe90wYuwqWZof1_1KsvwzbCQ/view?usp=drivesdk" 
               className="nav-link resume-link"
             >
               Resume
