@@ -44,9 +44,90 @@ export const projects = [
       // demo: "#"
     }
   },
-  
   {
   id: 4,
+
+  title: "Store Rating Platform",
+
+  period: "March 2026",
+
+  description:
+    "Developed a full-stack store rating platform with role-based access for administrators, store owners, and users, enabling secure store management, user interactions, ratings, dashboards, and real-time rating insights.",
+
+  features: [
+    "Implemented role-based authentication and authorization for Administrators, Store Owners, and Normal Users using JWT, bcrypt password hashing, and protected routes.",
+
+    "Developed store rating functionality allowing users to search stores, submit 1–5 star ratings, update their ratings, and view overall store ratings.",
+
+    "Built dedicated dashboards for administrators and store owners to manage users and stores, monitor rating statistics, and view users who rated their stores.",
+
+    "Implemented powerful search and filtering capabilities for users and stores based on attributes such as name, email, address, and role.",
+
+    "Designed a responsive full-stack application with RESTful APIs, Sequelize ORM, MySQL database integration, form validation, and a modular React.js architecture."
+  ],
+
+  technologies: [
+    "React.js",
+    "Node.js",
+    "Express.js",
+    "MySQL",
+    "Sequelize",
+    "JWT",
+    "Bcrypt",
+    "REST API",
+    "Axios",
+    "Tailwind CSS"
+  ],
+
+  links: {
+    code: "https://github.com/adi80100/store-rating-platform",
+
+    // demo: "#"
+  }
+},
+  {
+  id: 5,
+
+  title: "UPI Offline Mesh",
+
+  period: "May 2026 ",
+
+  description:
+    "Developed a Spring Boot-based offline payment system that simulates UPI transactions routed through a Bluetooth-style mesh network, enabling encrypted payment packets to travel across offline devices until a connected bridge node uploads them to the backend for secure validation and settlement.",
+
+  features: [
+    "Implemented hybrid RSA-OAEP and AES-256-GCM encryption to securely protect payment data from untrusted intermediate devices and detect tampered packets.",
+
+    "Built a Bluetooth-style mesh simulator using virtual devices and gossip-based packet propagation, allowing payments to hop between offline devices until reaching an internet-connected bridge.",
+
+    "Implemented atomic idempotency using SHA-256 ciphertext hashing to prevent duplicate transactions and ensure that a payment is settled exactly once even when received concurrently by multiple bridge nodes.",
+
+    "Implemented replay and tamper protection using encrypted timestamps, unique nonces, freshness validation, authenticated encryption, and database-level transaction safeguards.",
+
+    "Developed a transactional settlement pipeline with REST APIs, account management, transaction ledger, optimistic locking, automated tests, and an interactive dashboard for demonstrating the complete offline payment flow."
+  ],
+
+  technologies: [
+    "Java",
+    "Spring Boot",
+    "Spring Data JPA",
+    "H2",
+    "REST API",
+    "RSA-OAEP",
+    "AES-256-GCM",
+    "SHA-256",
+    "Maven",
+    "JUnit"
+  ],
+
+  links: {
+    code: "YOUR_GITHUB_LINK",
+
+    // demo: "#"
+  }
+},
+  {
+  id: 6,
 
   title: "Unified-AI",
 
