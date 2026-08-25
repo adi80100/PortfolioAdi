@@ -14,7 +14,8 @@ import {
   FaGithub,
   FaAws,
   FaDatabase,
-  FaServer
+  FaServer,
+  FaPython
 } from "react-icons/fa";
 
 import {
@@ -24,8 +25,15 @@ import {
   SiPostgresql,
   SiRedux,
   SiJest,
-  SiExpress
+  SiExpress,
+  SiTypescript,
+  SiMysql,
+  SiMongoose,
+  SiJsonwebtokens,
+  SiTailwindcss,SiReactrouter,
+SiAxios,SiDocker,SiPostman,SiNpm
 } from "react-icons/si";
+import { DiRedis } from "react-icons/di";
 
 const iconMap = {
   java: <FaJava />,
@@ -45,8 +53,22 @@ const iconMap = {
   aws: <FaAws />,
   sql:<FaDatabase />,
   api: <FaServer />,
-  vscode: <VscVscode />
-,
+  vscode: <VscVscode />,
+  ts:<SiTypescript />,
+  py:<FaPython/>,
+  mysql:<SiMysql/> ,
+  // restapi:,
+  mongoose:<SiMongoose/>,
+  jwt:<SiJsonwebtokens/>,
+  // bcrypt:,
+  redis:<DiRedis/>,
+  
+tailwindcss:<SiTailwindcss/>,
+reactrouter:<SiReactrouter/>,
+axios:<SiAxios/>,
+docker:<SiDocker/>,
+postman:<SiPostman/>,
+npm:<SiNpm/>,
 };
 
 const Skills = () => {

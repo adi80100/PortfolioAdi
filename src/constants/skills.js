@@ -3,27 +3,44 @@ export const skills = {
     { name: "Java", icon: "java" },
     { name: "C++", icon: "cpp" },
     { name: "JavaScript", icon: "js" },
-    { name: "SQL", icon: "sql" }
+    { name: "TypeScript", icon: "ts" },
+    { name: "Python", icon: "py" },
+    { name: "SQL", icon: "sql" },
+
   ],
   backendTechnologies: [
     { name: "Node.js", icon: "nodejs" },
-    { name: "PostgreSQL", icon: "postgresql" },
+    { name: "Express", icon: "express" },
     { name: "MongoDB", icon: "mongodb" },
-    { name: "REST API", icon: "api" },
-    { name: "Express", icon: "express" }
+    { name: "PostgreSQL", icon: "postgresql" },
+    { name: "MySQL", icon: "mysql" },
+    { name: "REST API", icon: "restapi" },
+    { name: "Mongoose", icon: "mongoose" },
+    { name: "JWT", icon: "jwt" },
+    { name: "Bcrypt", icon: "bcrypt" },
+    { name: "Redis", icon: "redis" },
+    
   ],
   frontendTechnologies: [
     { name: "React", icon: "react" },
     { name: "HTML5", icon: "html5" },
     { name: "CSS3", icon: "css3" },
     { name: "Redux", icon: "redux" },
+    { name: "Tailwind CSS", icon: "tailwindcss" },
+    { name: "React Router", icon: "reactrouter" },
+    { name: "Axios", icon: "axios" },
     { name: "Jest", icon: "jest" }
+
   ],
   developerTools: [
     { name: "Git", icon: "git" },
     { name: "GitHub", icon: "github" },
     { name: "AWS", icon: "aws" },
+    { name: "Docker", icon: "docker" },
     { name: "VS Code", icon: "vscode" },
+    { name: "Postman", icon: "postman" },
+    { name: "npm", icon: "npm" },
+
   ]
 };
 
