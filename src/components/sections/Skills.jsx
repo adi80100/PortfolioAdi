@@ -114,7 +114,7 @@ const Skills = () => {
               <h3 className="education-degree">Bachelor of Engineering in Information Technology</h3>
               <p className="education-institution">Sinhgad College of Engineering,Pune(SPPU)</p>
               <p className="education-period">November 2022 - August 2026</p>
-              <p className="education-grade">CGPA: 8.6 </p>
+              <p className="education-grade">CGPA: 8.7 </p>
             </div>
             
             <div className="education-card">

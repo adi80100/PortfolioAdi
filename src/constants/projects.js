@@ -15,21 +15,6 @@ export const projects = [
     }
   },
   {
-    id: 2,
-    title: "Medi-Track-Patient Health Record Dashboard",
-    period: "June 2025 - August 2025",
-    description: "MediTrack is a full-stack patient health record management system that helps clinics manage patient data, prescriptions, appointments, and reports efficiently.",
-    features: [
-      "Developed MediTrack, a full-stack Patient Health Record system to manage patient data, prescriptions, reports, and appointments for clinics.",
-      "Built with Node.js, Express, and MongoDB using JWT authentication, role-based access control, and scalable APIs for secure and efficient data management",
-    ],
-    technologies: ["React", "Redux","Node.js","Express","MongoDB",],
-    links: {
-      code: "https://github.com/adi80100/meditrack",
-      // demo: "#"
-    }
-  },
-  {
     id: 3,
     title: "Scalable Video Hosting Backend System",
     period: "Dec 2025 - Jan 2026",
@@ -171,6 +156,52 @@ export const projects = [
 
     // demo: "#"
 
+  }
+}
+,
+{
+  id: 6,
+
+  title: "Vecora – Intelligent Database & RAG Engine",
+
+  period: "Sept 2026",
+
+  description:
+    "Developed an intelligent database and Retrieval-Augmented Generation (RAG) engine designed to transform unstructured data into searchable, contextual, and meaningful information using semantic search, vector embeddings, and AI-powered retrieval.",
+
+  features: [
+    "Designed an intelligent document processing pipeline to ingest, parse, chunk, and process unstructured data for efficient information retrieval.",
+
+    "Implemented text embedding generation and vector-based indexing to enable semantic search beyond traditional keyword matching.",
+
+    "Built a Retrieval-Augmented Generation (RAG) pipeline that retrieves relevant document context and generates context-aware responses using LLMs.",
+
+    "Developed context-aware querying capabilities to retrieve relevant information from large document collections using natural language queries.",
+
+    "Integrated database management, RESTful APIs, and modular backend architecture to support efficient data storage, retrieval, and scalable processing."
+  ],
+
+  technologies: [
+    "React.js",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "Mongoose",
+    "JavaScript",
+    "REST APIs",
+    "Retrieval-Augmented Generation (RAG)",
+    "LLM Integration",
+    "Embeddings",
+    "Vector Search",
+    "Semantic Search",
+    "Document Processing",
+    "Text Chunking",
+    "JWT",
+    "Middleware"
+  ],
+
+  links: {
+    code: "https://github.com/adi80100/own-AI"
   }
 }
 
